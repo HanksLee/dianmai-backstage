@@ -1,0 +1,95 @@
+.page-customer .el-col-1 h4 {
+	line-height: .5;
+}
+
+.page-customer .el-col-3 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.page-customer .el-col-4 {
+	margin-right: 15px;
+}
+
+.page-customer .elcol2 {
+	width: 60px;
+}
+
+.page-customer .elcol1 {
+	margin-left: 25px;
+}
+
+.main-container .app-main .el-row.margin-high {
+	margin: 18px 0;
+}
+
+.label span.red {
+	color: red;
+}
+
+.imgs {
+	.el-row {
+		display: flex;
+    	justify-content: space-between;
+	}
+	.img-box {
+		position: relative;
+		width: 150px;
+		height: 80px;
+		border: 1px solid #ccc;
+		background: #fafafa;
+		box-shadow: inset 0px 0px 5px #eee;
+		border-radius: 3px;
+		overflow: hidden;
+		cursor: pointer;
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+.popover-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.complete-info {
+	padding: 20px 0px 10px
+}
+
+.el-form-item.margin-none {
+	margin-bottom: 0;
+}
+
+
+/*图片上传*/
+
+.hp {
+	width: 400px;
+	height: 240px;
+	border: 1px dashed #dedede;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 5px;
+	position: relative;
+	p {
+		position: absolute;
+		width: 400px;
+		left: 0;
+		top: 100px;
+		font-style: 16px;
+		line-height: 32px;
+		text-align: center;
+		color: red;
+	}
+	img {
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+}
