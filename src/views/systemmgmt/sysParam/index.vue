@@ -247,6 +247,19 @@
                   </div>
                 </el-col>
               </el-row>
+              <el-row>
+                <el-col :span="6">
+                  <span class="label" style="width:100%">每日出金次数：</span>
+                </el-col>
+                <el-col :span="14">
+                  <div class="label-val">
+                    <el-input
+                      v-model="sysParams.payout_limit_times"
+                      placeholder="请输入每日出金次数"
+                    ></el-input>
+                  </div>
+                </el-col>
+              </el-row>
 	           <el-row>
                 <el-col :span="6">
                   <span class="label" style="width:100%">科创板买入涨跌幅：</span>

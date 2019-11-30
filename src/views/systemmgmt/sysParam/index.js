@@ -8,7 +8,9 @@ export default {
 				'zxcnmarkets.com',
 				'huifengstocks.com',
 				'huachihk.com',
-				'jungdamarkets.com'
+				'jungdamarkets.com',
+				'huataistock.com',
+				'localhost'
 			], // 根据域名判断使用
 			spreadOpts: [], // 推广分成
 			delayOpts: [], // 递延收取时间
